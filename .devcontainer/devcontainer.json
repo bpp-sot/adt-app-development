@@ -1,0 +1,14 @@
+{
+	"name": "ADT App Development",
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"esbenp.prettier-vscode",
+				"ms-vscode.vscode-typescript-next"
+			]
+		}
+	},
+	"onCreateCommand": "./.devcontainer/on-create.sh"
+}
